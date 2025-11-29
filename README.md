@@ -1,4 +1,5 @@
 📘 Blog Técnico sobre Arquitectura de Software
+
 🎯 Descripción del Proyecto
 
 Este proyecto corresponde a la creación de un Blog Técnico enfocado en conceptos fundamentales de Arquitectura de Software. El sitio fue desarrollado utilizando HTML y CSS, y gestionado con Git y GitHub.
@@ -18,6 +19,29 @@ Componentes básicos (módulos, interfaces y conectores)
 Importancia (escalabilidad, mantenibilidad y rendimiento)
 
 Rol del arquitecto de software
+
+
+
+🎯 Descripción del Proyecto
+
+Este proyecto corresponde a la creación de un Blog Técnico enfocado en conceptos fundamentales de Arquitectura de Software. El sitio fue desarrollado utilizando HTML y CSS, y gestionado con Git y GitHub.
+El propósito es presentar contenido técnico de manera clara, organizada y comprensible, cumpliendo con los tres posts exigidos en la actividad y publicando el proyecto mediante GitHub Pages.
+
+📚 Contenido del Blog
+📄 POST 1 – ¿Qué es la Arquitectura de Software?
+
+Incluye:
+
+Definición de arquitectura de software
+
+Objetivo principal dentro de un sistema
+
+Componentes básicos (módulos, interfaces y conectores)
+
+Importancia (escalabilidad, mantenibilidad y rendimiento)
+
+Rol del arquitecto de software
+
 
 Ejemplos en proyectos reales
 
@@ -84,17 +108,11 @@ GitHub Pages – Despliegue del blog
 │     └── styles.css
 │── README.md
 
-🚀 Despliegue en GitHub Pages
-
-El proyecto está publicado en GitHub Pages en el siguiente enlace:
-
-👉 [Agregar aquí el link generado por GitHub Pages]
-
 📦 Cómo visualizar el proyecto en local
 
 Clonar el repositorio:
 
-git clone https://github.com/tuusuario/tu-repo.git
+git clone https://github.com/jcherrerah-ops/proyecto-copilot.git
 
 
 Abrir el archivo:
