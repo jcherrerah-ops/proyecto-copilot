@@ -1,33 +1,106 @@
-# proyecto-copilot
+📘 Blog Técnico sobre Arquitectura de Software
+🎯 Descripción del Proyecto
 
-Blog técnico sobre Arquitectura de Software para la actividad. Contiene tres publicaciones y está implementado con HTML y CSS.
+Este proyecto corresponde a la creación de un Blog Técnico enfocado en conceptos fundamentales de Arquitectura de Software. El sitio fue desarrollado utilizando HTML y CSS, y gestionado con Git y GitHub.
+El propósito es presentar contenido técnico de manera clara, organizada y comprensible, cumpliendo con los tres posts exigidos en la actividad y publicando el proyecto mediante GitHub Pages.
 
-Cómo probar localmente
-1. Abrir `index.html` en un navegador o ejecutar:
+📚 Contenido del Blog
+📄 POST 1 – ¿Qué es la Arquitectura de Software?
 
-```powershell
-python -m http.server 8000
-# y abrir http://localhost:8000
-```
+Incluye:
 
-Despliegue en GitHub Pages
-1. Subir este repositorio a GitHub (crear repo y push a `main`).
-2. En la página del repositorio en GitHub, Settings → Pages y elegir la rama `main` como fuente. El sitio estará disponible en `https://<usuario>.github.io/<repo>`.
+Definición de arquitectura de software
 
-Comandos útiles (PowerShell):
+Objetivo principal dentro de un sistema
 
-```powershell
-git add -A
-git commit -m "Añade blog técnico con 3 posts sobre Arquitectura de Software"
-git push origin main
-```
+Componentes básicos (módulos, interfaces y conectores)
 
-Si prefieres crear y publicar con la CLI de GitHub (`gh`):
+Importancia (escalabilidad, mantenibilidad y rendimiento)
 
-```powershell
-gh repo create <owner>/<repo> --public --source . --remote origin --push
-gh repo view --web
-```
+Rol del arquitecto de software
 
-Si quieres, puedo crear el commit y/o empujar los cambios al remoto — dime si autorizas.
-Proyecto de prueba para Estructura de Datos 2
+Ejemplos en proyectos reales
+
+Reflexión final
+
+📄 POST 2 – Estilos Arquitectónicos más utilizados
+
+Incluye:
+
+Definición de estilo arquitectónico
+
+Arquitectura Monolítica (características, ventajas y desventajas)
+
+Arquitectura en Capas
+
+Arquitectura Cliente-Servidor
+
+Arquitectura MVC
+
+Arquitectura de Microservicios
+
+Comparación entre los distintos estilos
+
+Conclusión sobre cuándo conviene cada uno
+
+📄 POST 3 – Patrones Arquitectónicos Modernos
+
+Incluye:
+
+Definición de patrón arquitectónico
+
+Clean Architecture (capas y propósito)
+
+Arquitectura Hexagonal (puertos y adaptadores)
+
+Patrón CQRS
+
+Ventajas y desventajas de cada patrón
+
+Ejemplos en proyectos modernos
+
+Comparación final entre los tres patrones
+
+🛠️ Tecnologías Utilizadas
+
+HTML5 – Estructura del blog
+
+CSS3 – Estilos y diseño
+
+Git y GitHub – Control de versiones
+
+GitHub Pages – Despliegue del blog
+
+(El proyecto no utiliza JavaScript.)
+
+📁 Estructura del Proyecto
+/blog-arquitectura-software
+│── index.html
+│── /posts
+│     ├── post1.html
+│     ├── post2.html
+│     └── post3.html
+│── /css
+│     └── styles.css
+│── README.md
+
+🚀 Despliegue en GitHub Pages
+
+El proyecto está publicado en GitHub Pages en el siguiente enlace:
+
+👉 [Agregar aquí el link generado por GitHub Pages]
+
+📦 Cómo visualizar el proyecto en local
+
+Clonar el repositorio:
+
+git clone https://github.com/tuusuario/tu-repo.git
+
+
+Abrir el archivo:
+index.html
+en cualquier navegador web.
+
+👨‍💻 Autor
+
+Proyecto desarrollado por Juan Camilo Herrera Heredia.
