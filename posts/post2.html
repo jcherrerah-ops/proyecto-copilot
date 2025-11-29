@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Estilos Arquitectónicos más utilizados</title>
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1>Estilos Arquitectónicos más utilizados</h1>
+        <nav>
+          <a href="../index.html">Inicio</a>
+          <a href="post1.html">¿Qué es la Arquitectura de Software?</a>
+          <a href="post3.html">Patrones Arquitectónicos Modernos</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <article class="hero">
+        <h2>Definición</h2>
+        <p>Un estilo arquitectónico describe una familia de decisiones estructurales y de interacción entre componentes; proporciona plantillas y convenciones para organizar sistemas.</p>
+
+        <h3>Estilo Monolítico</h3>
+        <p><strong>Características:</strong> aplicación empaquetada y desplegada como una sola unidad; todas las funcionalidades coexisten en el mismo proceso.</p>
+        <p><strong>Ventajas:</strong> despliegue sencillo, baja complejidad inicial, buenas para equipos pequeños.</p>
+        <p><strong>Desventajas:</strong> escalado por todo el sistema, acoplamiento fuerte, dificulta despliegues independientes.</p>
+
+        <h3>Arquitectura en Capas (N-Capas)</h3>
+        <p>Separación en capas (presentación, negocio, persistencia). Facilita pruebas y mantenimiento al aislar responsabilidades.</p>
+
+        <h3>Arquitectura Cliente-Servidor</h3>
+        <p>División entre cliente (interfaz) y servidor (lógica y datos). Muy común en aplicaciones web y móviles.</p>
+
+        <h3>Arquitectura MVC</h3>
+        <p>Modelo-Vista-Controlador: separa datos (Modelo), UI (Vista) y lógica de control (Controlador). Muy usada en frameworks web y de interfaz.</p>
+
+        <h3>Arquitectura de Microservicios</h3>
+        <p>Conjunto de servicios pequeños e independientes que se comunican mediante APIs. Permite despliegues y escalado independiente, pero añade complejidad operativa.</p>
+
+        <h3>Comparación resumida</h3>
+        <ul>
+          <li><strong>Monolito:</strong> simple, pero menos escalable.</li>
+          <li><strong>Capas:</strong> modularidad por responsabilidad; buena para aplicaciones empresariales.</li>
+          <li><strong>Cliente-Servidor / MVC:</strong> separación clara front/back y UI/logic.</li>
+          <li><strong>Microservicios:</strong> flexibilidad y escalado, mayor complejidad en infra.</li>
+        </ul>
+
+        <h3>Conclusión — ¿cuándo conviene cada estilo?</h3>
+        <p>Elige monolito para proyectos pequeños o pruebas de concepto; arquitectura en capas para aplicaciones empresariales con lógica clara; microservicios cuando necesitas escalado independiente, despliegues por equipo y tolerancia a complejidad operativa.</p>
+      </article>
+    </main>
+
+    <footer class="site-footer"><div class="container">Volver al <a href="../index.html">inicio</a></div></footer>
+  </body>
+</html>

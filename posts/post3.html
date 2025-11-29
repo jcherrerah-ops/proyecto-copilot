@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Patrones Arquitectónicos Modernos</title>
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1>Patrones Arquitectónicos Modernos</h1>
+        <nav>
+          <a href="../index.html">Inicio</a>
+          <a href="post1.html">¿Qué es la Arquitectura de Software?</a>
+          <a href="post2.html">Estilos Arquitectónicos</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <article class="hero">
+        <h2>Definición</h2>
+        <p>Un patrón arquitectónico es una solución reutilizable a un problema recurrente en el diseño del software que define estructura y responsabilidades entre componentes.</p>
+
+        <h3>Clean Architecture</h3>
+        <p><strong>Capas:</strong> entidades, casos de uso, interfaces, frameworks/drivers. La dependencia va hacia el centro (las capas internas no conocen las externas).</p>
+        <p><strong>Propósito:</strong> separar políticas de detalles, facilitar tests y mantener independencia de frameworks y UI.</p>
+
+        <h3>Arquitectura Hexagonal (Puertos y Adaptadores)</h3>
+        <p>Define un núcleo de aplicación rodeado por puertos (interfaces) y adaptadores (implementaciones). Busca aislar la lógica de negocio de la infraestructura.</p>
+
+        <h3>Patrón CQRS</h3>
+        <p>Separa comandos (operaciones que modifican estado) y queries (consultas) en modelos distintos. Facilita optimizaciones independientes para lectura/escritura y puede mejorar escalabilidad.</p>
+
+        <h3>Ventajas y desventajas</h3>
+        <ul>
+          <li><strong>Clean Architecture:</strong> ventaja: alta testabilidad y flexibilidad; desventaja: más abstracciones y curva de aprendizaje.</li>
+          <li><strong>Hexagonal:</strong> ventaja: clara separación infraestructura/negocio; desventaja: diseño adicional de puertos/adaptadores.</li>
+          <li><strong>CQRS:</strong> ventaja: rendimiento en lecturas y escalado; desventaja: complejidad en consistencia eventual y sincronización.</li>
+        </ul>
+
+        <h3>Ejemplos de aplicación</h3>
+        <p>Proyectos que requieren alta mantenibilidad y testabilidad suelen aplicar Clean o Hexagonal. Sistemas con alta carga de lectura (p. ej. dashboards) pueden beneficiarse de CQRS combinado con eventos.</p>
+
+        <h3>Conclusión</h3>
+        <p>Los patrones Clean, Hexagonal y CQRS responden a necesidades diferentes. Clean/Hexagonal priorizan separación de responsabilidades y testabilidad; CQRS es una elección para cargas y requisitos de rendimiento concretos. La elección depende de requisitos del proyecto, experiencia del equipo y coste operacional aceptable.</p>
+      </article>
+    </main>
+
+    <footer class="site-footer"><div class="container">Volver al <a href="../index.html">inicio</a></div></footer>
+  </body>
+</html>
